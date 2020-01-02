@@ -1,0 +1,3 @@
+LIBRARY WRAP
+EXPORTS
+    add=__wrap_add

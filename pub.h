@@ -10,7 +10,7 @@
 #define DLL_LOCAL  __attribute__ ((visibility ("hidden")))
 #else
 #define DLL_PUBLIC
-    #define DLL_LOCAL
+#define DLL_LOCAL
 #endif
 
 #ifdef __cplusplus

@@ -3,9 +3,9 @@
 
 extern "C" {
 
-DLL_PUBLIC int add(int a, int b) {
+DLL_PUBLIC int WRAP(add)(int a, int b) {
   std::cout << "hello from CPP" << std::endl;
-  return wrap_add(a, b);
+  return REAL(add)(a, b);
 }
 
 }
